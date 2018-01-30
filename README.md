@@ -1,2 +1,2 @@
 # DPU_Project_SBDesignSquare_Admin_WebApplication
-dpu project ce
+dpu2017 project ce
