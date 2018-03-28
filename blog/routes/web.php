@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Method > get ดึงข้อมูลต่างมาโชว์ ,post เอาข้อมูลที่ส่งไปมาเซฟใน db , put part เอาข้อมูลมาupdate db , delete ลบข้อมูลในdb
+
+Route::get('/', 'BlogController@index');
+
+Route::get('/main', 'BlogController@about');
+
+Route::post('/main/main','BlogController@add');
+
+Route::get('/show','BlogController@show');
